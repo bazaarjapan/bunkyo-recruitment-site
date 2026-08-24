@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>文教で、何を始める？｜文教大学付属中学校・高等学校</title>
+  <meta name="description" content="発見、思考、行動、探究、表現。文教大学付属中学校・高等学校で始まる6年間を体験するコンセプトサイト。">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="nav"><a class="brand" href="#top">BUNKYO<span>06</span></a><a href="#explore">学校をのぞく ↗</a></header>
+  <main id="top">
+    <section class="hero">
+      <p class="eyebrow">BUNKYO JUNIOR &amp; SENIOR HIGH SCHOOL</p>
+      <h1>文教で、<br><em>何を始める？</em></h1>
+      <p class="lead">発見する。考える。動く。<br>仲間と探究して、未来へ表現する。</p>
+      <a class="button" href="#explore">自分の入口を見つける <span>↓</span></a>
+      <div class="hero-orbit orbit-one"></div><div class="hero-orbit orbit-two"></div>
+    </section>
+    <section id="explore" class="section intro"><p class="eyebrow">UNIVERSAL COMPETENCY</p><h2>あなたの「気になる」から<br>文教をのぞいてみよう。</h2><p>文教ユニバーサルコンピテンシーの5つの力から、気になるものを選んでください。</p></section>
+    <section class="cards" aria-label="文教の5つの力">
+      <button class="card c1" data-copy="問いを見つけるところから、学びが始まる。"><small>01</small><strong>発見</strong><span>見つける</span></button>
+      <button class="card c2" data-copy="違う視点を持ち寄って、考えを深める。"><small>02</small><strong>思考</strong><span>考える</span></button>
+      <button class="card c3" data-copy="小さな一歩を、誰かと大きな動きに変える。"><small>03</small><strong>行動</strong><span>動く</span></button>
+      <button class="card c4" data-copy="クリエイティブチャレンジで、学年を越えて探究する。"><small>04</small><strong>探究</strong><span>深める</span></button>
+      <button class="card c5" data-copy="学んだことを、世界に届くかたちにする。"><small>05</small><strong>表現</strong><span>伝える</span></button>
+    </section>
+    <p id="card-copy" class="card-copy" aria-live="polite">カードをタップすると、文教での学びが少し見えてきます。</p>
+    <section class="section split"><div><p class="eyebrow">SCHOOL LIFE</p><h2>いつもの毎日が、<br>未来の材料になる。</h2></div><p>中高6学年の仲間、約30の部活動、オールイングリッシュの学び、タブレットや生成AIを使った制作。文教の6年間は、授業の外側にも広がっています。</p></section>
+    <section class="cta"><p class="eyebrow">NEXT STEP</p><h2>まずは、実際の文教を<br>見に行こう。</h2><div class="cta-links"><a href="https://www.bunkyo.ac.jp/jsh/admissions/" target="_blank" rel="noreferrer">入試情報を見る ↗</a><a href="https://www.bunkyo.ac.jp/jsh/" target="_blank" rel="noreferrer">公式サイトを見る ↗</a></div></section>
+  </main>
+  <footer><span>CONCEPT SITE / AI-GENERATED VISUALS</span><span>© BUNKYO CONCEPT PROJECT</span></footer>
+  <script>document.querySelectorAll('.card').forEach(card=>card.addEventListener('click',()=>document.querySelector('#card-copy').textContent=card.dataset.copy));</script>
+</body>
+</html>

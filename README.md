@@ -18,6 +18,7 @@
 - `docs/research-school-features.md`: 公式情報に基づく調査メモ
 - `docs/issues/001-recruitment-site-concept.md`: Issue 001（最初の課題設定）
 - `CHANGELOG.md`: 指示ごとの変更意図・実施内容・確認結果
+- `index.html` / `styles.css`: 初期のスマートフォン対応コンセプトサイト
 
 ## 注意
 
